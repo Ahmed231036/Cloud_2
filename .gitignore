@@ -3,3 +3,7 @@ node_modules/
 .DS_Store
 Thumbs.db
 .vercel/
+.neon
+.env.local
+.agents/
+skills-lock.json

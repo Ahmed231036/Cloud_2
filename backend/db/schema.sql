@@ -1,5 +1,5 @@
 -- Lab 5 Part 9: run this once in the Neon SQL Editor
-CREATE TABLE issues (
+CREATE TABLE IF NOT EXISTS issues (
   id          UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   title       VARCHAR(100) NOT NULL,
   description VARCHAR(500) NOT NULL,

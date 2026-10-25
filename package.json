@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "node --check backend/server.js && node --check backend/controllers/issues.js && node --check backend/routes/issues.js && node --check backend/services/issueService.js && node --check backend/services/jsonIssueService.js && node --check backend/services/neonIssueService.js && node --check backend/db/setup.js && node --check frontend/js/app.js && node --check frontend/js/config.js"
+  },
+  "dependencies": {
+    "@neon/config": "^1.9.4",
+    "@neon/env": "^1.6.5"
+  }
+}
